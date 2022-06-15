@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap");
+
+.mainContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #e5e5e5;
+}
+
+.leftContainer {
+  width: 229px;
+  height: 969px;
+  background: linear-gradient(176.04deg, #4db9c4 0.86%, #3cd2ad 100%), #54b7b7;
+}
+
+.logo {
+  margin-top: 21px;
+  margin-left: 65.13px;
+  margin-right: 50px;
+}
+
+.rightContainer {
+  height: 73px;
+  width: 100%;
+}
+
+.headerContainer {
+  height: 73px;
+  width: inherit;
+  background-color: #54b7b7;
+}
+
+.backBtn {
+  position: absolute;
+  left: 322px;
+  top: 137px;
+}
+
+.backBtn:hover {
+  cursor: pointer;
+}
+
+.customersInfo {
+  position: absolute;
+  width: 277px;
+  height: 24px;
+  left: 361px;
+  top: 137px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #54b6bd;
+}
+
+.containerInfo {
+  position: absolute;
+  width: 1035px;
+  height: 745px;
+  left: 322px;
+  top: 189px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 17px;
+}
+
+.imgInfo {
+  position: absolute;
+  left: 35px;
+  top: 49px;
+}
+
+.firstNameContainer {
+  position: absolute;
+  left: 212px;
+  top: 49px;
+}
+
+.inputStyling {
+  box-sizing: border-box;
+  border: 2px solid #54b7b7;
+  border-radius: 4px;
+  outline: none;
+  width: 235px;
+  height: 43px;
+}
+
+.label {
+  margin-right: 33px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #54b6bd;
+}
+
+.lastNameContainer {
+  position: absolute;
+  left: 212px;
+  top: 102px;
+}
+
+.emailContainer {
+  position: absolute;
+  left: 247px;
+  top: 155px;
+}
+
+.CountryContainer {
+  position: absolute;
+  right: 42px;
+  top: 49px;
+}
+
+.StateContainer {
+  position: absolute;
+  right: 42px;
+  top: 102px;
+}
+
+.btn {
+  position: absolute;
+  right: 42px;
+  bottom: 31px;
+  margin-top: 200px;
+}
+
+.btnVictor {
+  margin-right: 4px;
+  margin-bottom: 3px;
+}
+.errMessage {
+  color: red;
+  font-family: "Rubik";
+  top: 30%;
+  left: 30%;
+  position: inherit;
+}

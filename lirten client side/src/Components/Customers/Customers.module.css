@@ -1,0 +1,32 @@
+.tableContainer {
+  position: absolute;
+  width: 910px;
+  left: 442px;
+  top: 303px;
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #54b6bd;
+}
+
+.tableBody {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 18px 0px 18px 0px;
+  position: relative;
+}
+
+.tablePic {
+  position: absolute;
+  top: 15px;
+  left: 27px;
+}

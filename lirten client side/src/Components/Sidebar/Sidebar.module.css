@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap");
+
+.leftContainer {
+  width: 229px;
+  height: 969px;
+  background: linear-gradient(176.04deg, #4db9c4 0.86%, #3cd2ad 100%), #54b7b7;
+}
+
+.logo {
+  margin-top: 21px;
+  margin-left: 65.13px;
+  margin-right: 50px;
+}
